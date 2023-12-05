@@ -19,7 +19,7 @@ function uploadImage() {
     }
 }
 function analyzeImage(imageData) {
-    const azureFunctionUrl = 'https://VisionED.azurewebsites.net/api/VisionEDfunction';
+    const azureFunctionUrl = 'https://visioned.azurewebsites.net/api/API_vision_trigger';
 
     // Remove the metadata from the Base64 string
     imageData = imageData.replace(/^data:image\/[a-z]+;base64,/, "");
